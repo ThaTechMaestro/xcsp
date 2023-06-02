@@ -2,7 +2,7 @@ import re
 
 class EndianUtil:
     """
-    EndianUtil is a class to perform reversed byte order operations\n
+    EndianUtil is a class which carries out reversed byte order operations\n
     This reversals are carried out both ways\n
     Inputs following Big Endian Order are returned\n
         in Little Endian Order & vice versa
