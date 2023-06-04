@@ -24,7 +24,7 @@ class TestEndianUtil(unittest.TestCase):
     
     def test_pad_hex_val(self):
         
-        self.assertEqual(self.endian_util.pad_hepythx_val('a'),'0a')
+        self.assertEqual(self.endian_util.pad_hex_val('a'),'0a')
         self.assertEqual(self.endian_util.pad_hex_val('ab'),'ab')
         self.assertEqual(self.endian_util.pad_hex_val('abc'),'0abc')  
         self.assertEqual(self.endian_util.pad_hex_val('abcd'),'abcd')
