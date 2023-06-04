@@ -50,7 +50,7 @@ class TestEndianUtil(unittest.TestCase):
         self.assertEqual(self.endian_util.reverse_bin_endianness('1111101011110101'), '1111010111111010')
     
     
-    def test_display_reversed_endian_val_raises_exception_for_invalid_inputt(self):
+    def test_display_reversed_endian_val_raises_exception_for_invalid_input(self):
         
         with self.assertRaises(ValueError) as e:
             self.endian_util.display_reversed_endian_val('')
