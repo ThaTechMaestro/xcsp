@@ -1,0 +1,15 @@
+Implementation System(BackEnd):
+    - Requirements
+    - Validations
+    - Implementation
+    - Unit Tests
+    - Refactoring & CleanUp
+    - Documentation
+
+Code Quality:
+    https://testdriven.io/blog/python-code-quality/
+
+
+Commands(Preference):
+    CodeFormatting:
+        python3 -m isort . 
